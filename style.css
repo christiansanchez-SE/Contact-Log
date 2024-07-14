@@ -1,0 +1,38 @@
+.container{
+    border:solid blue;
+    padding:12px;
+    display: flex;
+    justify-content: space-between;
+    margin:1em;
+    border-radius:5px;
+}
+.dashboard{
+    border:solid black;
+    padding:1em;
+}
+.spacer{
+    display:flex;
+    justify-content: space-between;
+}
+.sprintContainer{
+    border:solid black;
+    padding:1em;
+}
+h1{
+    /* border: solid black; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.albumContainer{
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    margin: 0.5em;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+}
